@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>MyJS Website</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <!-- Menu -->
+  <nav>
+    <a href="#intro">Giới thiệu</a>
+    <a href="#info">Thông tin</a>
+    <a href="#contact">Liên hệ</a>
+  </nav>
+
+  <!-- Giới thiệu -->
+  <section id="intro">
+    <h1>Chào mừng đến MyJS</h1>
+    <p>Website tổng hợp JavaScript cơ bản.</p>
+    <button id="btnToggle">Ẩn/Hiện thông tin</button>
+  </section>
+
+  <!-- Nội dung ẩn/hiện -->
+  <section id="info">
+    <p>Đây là nội dung có thể ẩn hoặc hiện bằng JavaScript!</p>
+  </section>
+
+  <!-- Form liên hệ -->
+  <section id="contact">
+    <h2>Liên hệ</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Họ tên" />
+      <input type="email" id="email" placeholder="Email" />
+      <textarea id="message" placeholder="Tin nhắn"></textarea>
+      <button type="submit">Gửi</button>
+    </form>
+    <p id="formResult"></p>
+  </section>
+
+  <script src="/js/script.js"></script>
+</body>
+</html>
