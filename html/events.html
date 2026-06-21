@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bài 5 - Events</title>
+</head>
+<body>
+
+  <h2>Event Playground</h2>
+
+  <!-- 1. click -->
+  <button id="btnClick">Bấm tôi</button>
+  <p id="clickResult"></p>
+
+  <!-- 2. change -->
+  <select id="colorSelect">
+    <option value="">-- Chọn màu --</option>
+    <option value="red">Đỏ</option>
+    <option value="green">Xanh lá</option>
+    <option value="blue">Xanh dương</option>
+  </select>
+  <p id="changeResult">Bạn chưa chọn màu</p>
+
+  <!-- 3. keyup -->
+  <input type="text" id="nameInput" placeholder="Gõ tên vào đây..." />
+  <p id="keyupResult">Xem trước: </p>
+
+  <!-- 4. submit -->
+  <form id="myForm">
+    <input type="text" placeholder="Nhập gì đó..." />
+    <button type="submit">Gửi</button>
+  </form>
+  <p id="submitResult"></p>
+
+  <script src="/js/events.js"></script>
+</body>
+</html>
