@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bài 4 - DOM</title>
+</head>
+<body>
+
+  <h2 id="title">Xin chào</h2>
+  <button id="btnChange">Đổi nội dung</button>
+
+  <script>
+    const title = document.getElementById("title");
+    const btnChange = document.getElementById("btnChange");
+
+    btnChange.addEventListener("click", function() {
+      // đổi title thành "Học DOM thật vui!"
+      title.textContent = "Học DOM thật vui!";
+
+      // đổi màu chữ và nền
+      title.style.color = "white";
+      title.style.backgroundColor = "blue";
+    });
+  </script>
+
+</body>
+</html>
